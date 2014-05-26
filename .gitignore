@@ -22,84 +22,84 @@ Game/*.sln
 Game/*.xcodeproj
 
 # Derived data cache is never checked in
-/Engine/DerivedDataCache/**
+/Game/Engine/DerivedDataCache/**
 
 # Engine intermediates
-/Engine/Intermediate/**
-/Engine/Plugins/**/Intermediate/**
+/Game/Engine/Intermediate/**
+/Game/Engine/Plugins/**/Intermediate/**
 
 # Ignore binary files...
-/Engine/Binaries/**
-/Engine/Plugins/**/Binaries/**
+/Game/Engine/Binaries/**
+/Game/Engine/Plugins/**/Binaries/**
 
 # ...but Mac Mono binaries will stay, for now.
-!/Engine/Binaries
-!/Engine/Binaries/ThirdParty
-!/Engine/Binaries/ThirdParty/Mono
-!/Engine/Binaries/ThirdParty/Mono/Mac
-!/Engine/Binaries/ThirdParty/Mono/Mac/bin
-!/Engine/Binaries/ThirdParty/Mono/Mac/bin/**
+!/Game/Engine/Binaries
+!/Game/Engine/Binaries/ThirdParty
+!/Game/Engine/Binaries/ThirdParty/Mono
+!/Game/Engine/Binaries/ThirdParty/Mono/Mac
+!/Game/Engine/Binaries/ThirdParty/Mono/Mac/bin
+!/Game/Engine/Binaries/ThirdParty/Mono/Mac/bin/**
 
 # Intermediate folders created for various C# programs
-/Engine/Source/Programs/**/obj/**
+/Game/Engine/Source/Programs/**/obj/**
 
 # Saved folders for programs should not be checked in
-/Engine/Programs/**/Saved/**
+/Game/Engine/Programs/**/Saved/**
 
 # Ignore various other dependencies that are never checked in
-/Engine/Content/**
-/Engine/Documentation/**
-/Engine/Extras/**
+/Game/Engine/Content/**
+/Game/Engine/Documentation/**
+/Game/Engine/Extras/**
 
 # Ignore any saved local files
-/Engine/Saved/**
+/Game/Engine/Saved/**
 
 # Ignore third party folders
-/Engine/Source/ThirdParty/ANGLE/**
-/Engine/Source/ThirdParty/DirectShow/**
-/Engine/Source/ThirdParty/elftoolchain/**
-/Engine/Source/ThirdParty/Facebook/**
-/Engine/Source/ThirdParty/FBX/**
-/Engine/Source/ThirdParty/ForsythTriOO/**
-/Engine/Source/ThirdParty/FreeType2/**
-/Engine/Source/ThirdParty/HACD/**
-/Engine/Source/ThirdParty/hlslcc/**
-/Engine/Source/ThirdParty/ICU/**
-/Engine/Source/ThirdParty/IntelTBB/**
-/Engine/Source/ThirdParty/jemalloc/**
-/Engine/Source/ThirdParty/Kiss_FFT/**
-/Engine/Source/ThirdParty/libcurl/**
-/Engine/Source/ThirdParty/libJPG/**
-/Engine/Source/ThirdParty/libOpus/**
-/Engine/Source/ThirdParty/libPNG/**
-/Engine/Source/ThirdParty/Licenses/**
-/Engine/Source/ThirdParty/Mac/**
-/Engine/Source/ThirdParty/MCPP/**
-/Engine/Source/ThirdParty/nvtesslib/**
-/Engine/Source/ThirdParty/nvTextureTools/**
-/Engine/Source/ThirdParty/nvTriStrip/**
-/Engine/Source/ThirdParty/Oculus/**
-/Engine/Source/ThirdParty/Ogg/**
-/Engine/Source/ThirdParty/OpenAL/**
-/Engine/Source/ThirdParty/OpenGL/**
-/Engine/Source/ThirdParty/Perforce/**
-/Engine/Source/ThirdParty/PhysX/**
-/Engine/Source/ThirdParty/portmidi/**
-/Engine/Source/ThirdParty/Qualcomm/TextureConverter/**
-/Engine/Source/ThirdParty/Recast/**
-/Engine/Source/ThirdParty/SDL/**
-/Engine/Source/ThirdParty/SDL2/**
-/Engine/Source/ThirdParty/Vorbis/**
-/Engine/Source/ThirdParty/Windows/DirectX/**
-/Engine/Source/ThirdParty/zlib/**
+/Game/Engine/Source/ThirdParty/ANGLE/**
+/Game/Engine/Source/ThirdParty/DirectShow/**
+/Game/Engine/Source/ThirdParty/elftoolchain/**
+/Game/Engine/Source/ThirdParty/Facebook/**
+/Game/Engine/Source/ThirdParty/FBX/**
+/Game/Engine/Source/ThirdParty/ForsythTriOO/**
+/Game/Engine/Source/ThirdParty/FreeType2/**
+/Game/Engine/Source/ThirdParty/HACD/**
+/Game/Engine/Source/ThirdParty/hlslcc/**
+/Game/Engine/Source/ThirdParty/ICU/**
+/Game/Engine/Source/ThirdParty/IntelTBB/**
+/Game/Engine/Source/ThirdParty/jemalloc/**
+/Game/Engine/Source/ThirdParty/Kiss_FFT/**
+/Game/Engine/Source/ThirdParty/libcurl/**
+/Game/Engine/Source/ThirdParty/libJPG/**
+/Game/Engine/Source/ThirdParty/libOpus/**
+/Game/Engine/Source/ThirdParty/libPNG/**
+/Game/Engine/Source/ThirdParty/Licenses/**
+/Game/Engine/Source/ThirdParty/Mac/**
+/Game/Engine/Source/ThirdParty/MCPP/**
+/Game/Engine/Source/ThirdParty/nvtesslib/**
+/Game/Engine/Source/ThirdParty/nvTextureTools/**
+/Game/Engine/Source/ThirdParty/nvTriStrip/**
+/Game/Engine/Source/ThirdParty/Oculus/**
+/Game/Engine/Source/ThirdParty/Ogg/**
+/Game/Engine/Source/ThirdParty/OpenAL/**
+/Game/Engine/Source/ThirdParty/OpenGL/**
+/Game/Engine/Source/ThirdParty/Perforce/**
+/Game/Engine/Source/ThirdParty/PhysX/**
+/Game/Engine/Source/ThirdParty/portmidi/**
+/Game/Engine/Source/ThirdParty/Qualcomm/TextureConverter/**
+/Game/Engine/Source/ThirdParty/Recast/**
+/Game/Engine/Source/ThirdParty/SDL/**
+/Game/Engine/Source/ThirdParty/SDL2/**
+/Game/Engine/Source/ThirdParty/Vorbis/**
+/Game/Engine/Source/ThirdParty/Windows/DirectX/**
+/Game/Engine/Source/ThirdParty/zlib/**
 
 # Add back in all the build files for third party modules
-!/Engine/Source/ThirdParty/**/*.[Bb]uild.cs
+!/Game/Engine/Source/ThirdParty/**/*.[Bb]uild.cs
 
 # Ignore sample and template projects
-/Samples/**
-/Templates/**
-Engine/Binaries/ThirdParty/
+/Game/Samples/**
+/Game/Templates/**
+Game/Engine/Binaries/ThirdParty/
 
 ##############################
 ## Unreal Project Ignores
@@ -108,3 +108,4 @@ Engine/Binaries/ThirdParty/
 /*/Saved/**
 /*/Intermediate
 /*/DerivedDataCache
+Game/Binaries/
