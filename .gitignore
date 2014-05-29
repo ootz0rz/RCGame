@@ -109,3 +109,4 @@ Game/Engine/Binaries/ThirdParty/
 /*/Intermediate
 /*/DerivedDataCache
 Game/Binaries/
+Game/build/Game.build
